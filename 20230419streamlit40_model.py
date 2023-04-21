@@ -120,11 +120,11 @@ if use_info:
 if raw_data:
     # 展示原始数据部分
     with st.expander("**Raw data**", True):
-        disp=pd.read_csv('2499_displayed.csv')
+        disp=pd.read_csv('2499_displayed.csv', encoding="utf-8")
         st.dataframe(disp, use_container_width=True)
 
     # 训练数据文件
-    df1=  pd.read_csv(file[0])
+    df1=  pd.read_csv(file[0], encoding="utf-8")
 
     with st.expander("**Train data sets**", True):
         st.dataframe(df1, use_container_width=True)
