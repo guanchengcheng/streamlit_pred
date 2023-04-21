@@ -128,7 +128,7 @@ if raw_data:
         if ".csv" in f1:
             trainf = f1
             break
-    df1=  pd.read_csv(f1, encoding="utf-8")
+    #df1=  pd.read_csv(f1, encoding="utf-8")
 
-    with st.expander("**Train data sets**", True):
-        st.dataframe(df1, use_container_width=True)
+    #with st.expander("**Train data sets**", True):
+    #    st.dataframe(df1, use_container_width=True)
