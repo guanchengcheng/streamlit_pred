@@ -124,6 +124,7 @@ if raw_data:
         st.dataframe(disp, use_container_width=True)
 
     # 训练数据文件
+    st.write(file[0])
     df1=  pd.read_csv(file[0], encoding="gbk18030")
 
     with st.expander("**Train data sets**", True):
