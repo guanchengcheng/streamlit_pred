@@ -10,10 +10,9 @@ import streamlit as st
 
 st.set_page_config(layout="wide", page_title="Prognostic Models in Critically Ill Patients with Sepsis-associated Acute Kidney Injury")
 
-st.sidebar.image("https://ts1.cn.mm.bing.net/th/id/R-C.cc27bb9471b79ca3306206c9e0d53bf2?rik=Y4W3gVBY7uyrdA&riu=http%3a%2f%2fwww.care-real.\
-    com%2fimg%2fqiepian_0412.jpg&ehk=BIkIzmxHsoyAL%2bTCtCSKifAkfjsCxvJWb1WouX2CaMo%3d&risl=&pid=ImgRaw&r=0")
+st.sidebar.image("R.jpg")
 
-s1 = ["status 7d",'status 14d','status 28d']
+s1 = ["status 7d",'status 14d','status 28d']R.jpg
 s2 = ["_7", "_14", "_28"]
 status = {i:j for i, j in zip(s1, s2)}
 st.sidebar.info("**Status & model select**")
