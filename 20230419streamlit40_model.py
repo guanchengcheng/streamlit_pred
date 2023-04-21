@@ -124,7 +124,7 @@ if raw_data:
         st.dataframe(disp, use_container_width=True)
 
     # 训练数据文件
-    df1=  pd.read_csv(file[0], encoding="utf-8")
+    df1=  pd.read_csv(file[0], encoding="ANSI")
 
     with st.expander("**Train data sets**", True):
         st.dataframe(df1, use_container_width=True)
