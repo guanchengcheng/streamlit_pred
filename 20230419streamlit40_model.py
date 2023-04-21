@@ -12,7 +12,7 @@ st.set_page_config(layout="wide", page_title="Prognostic Models in Critically Il
 
 st.sidebar.image("R.jpg")
 
-s1 = ["status 7d",'status 14d','status 28d']R.jpg
+s1 = ["status 7d",'status 14d','status 28d']
 s2 = ["_7", "_14", "_28"]
 status = {i:j for i, j in zip(s1, s2)}
 st.sidebar.info("**Status & model select**")
